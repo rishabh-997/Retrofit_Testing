@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/hero_image"
+        android:src="@drawable/ic_launcher_background"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_margin="12dp"
+        android:layout_toRightOf="@id/hero_image"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:text="captain"
+            android:id="@+id/hero_name"  />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:text="real name"
+            android:id="@+id/hero_realname"  />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:text="team"
+            android:id="@+id/hero_team"  />
+    </LinearLayout>
+
+</RelativeLayout>
