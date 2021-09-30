@@ -64,5 +64,5 @@ class yMyClass {       // The class
   public:             // Access specifier
     int myNum;        // Attribute (int variable)
     string myString;
-    yMyClass()// Attribute (string variable)
+    yMyClass()
 };
